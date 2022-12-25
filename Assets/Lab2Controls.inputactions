@@ -1,0 +1,54 @@
+{
+    "name": "Lab2Controls",
+    "maps": [
+        {
+            "name": "Controls",
+            "id": "e049e5f5-8594-4899-8d40-551f1a9a7603",
+            "actions": [
+                {
+                    "name": "Quit",
+                    "type": "Button",
+                    "id": "b9eb0040-f106-47d2-bcc0-b4544fb37502",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Cameras",
+                    "type": "Button",
+                    "id": "c9825ffc-8e61-4250-a36e-6984ca8a5f1a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3c2d4f2a-7f8c-4008-8688-4b0ef5754469",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Quit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d6e1c360-c5c6-44a2-aa60-6b87bb892260",
+                    "path": "<Keyboard>/0",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cameras",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
